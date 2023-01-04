@@ -22,7 +22,7 @@ int BinarySearch(int arr[], int size, int key){
 }
 int main(){
 
-    int array[7] = {2,7,8,9,10,22,30};
+    int array[7] = {2,7,8,9,10,22,30,45};
 
     int index = BinarySearch(array, 7 , 9);
     cout<<"Index of key is: "<<index<<endl;
